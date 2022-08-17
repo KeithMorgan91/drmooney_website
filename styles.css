@@ -26,7 +26,7 @@ a {
     color: white;
 }
 
-p {
+.showtitle, .showp {
     color: white;
 }
 
@@ -78,6 +78,37 @@ button {
 }
 
 .offerimg {
-    width: 350px;
-    border-radius: 5px;
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.offers {
+    display: flex;
+    justify-content: center;
+}
+
+.servicetitle {
+    display: flex;
+    font-size: 33px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infotitle {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.info {
+    max-width: 350px;
+    text-align: center;
 }
