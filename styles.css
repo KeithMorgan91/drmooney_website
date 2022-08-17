@@ -42,7 +42,7 @@ li {
 .showcase {
     display: flex;
     background: #1F2937;
-    padding: 90px 0px;
+    padding: 82px 0px;
     justify-content: center;
     align-items: center;
     gap: 150px;
@@ -97,6 +97,7 @@ button {
     justify-content: center;
     gap: 100px;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .offer1 {
@@ -110,7 +111,27 @@ button {
 }
 
 .info {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 100;
     padding: 3px;
+}
+
+.inspirequote {
+    display: flex;
+    background: rgb(221, 221, 221);
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 18px;
+    max-width: 800px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 700;
+    padding: 20px;
+    margin-left: 540px;
 }
