@@ -16,6 +16,12 @@ header {
     margin: 5px;
 }
 
+.showcase {
+    display: flex;
+    flex: 1;
+    background: #1F2937;
+}
+
 .logo {
     display: flex;
 }
