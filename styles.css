@@ -1,5 +1,7 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,20 +14,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    margin: 5px;
-}
-
-.showcase {
-    display: flex;
-    flex: 1;
-    background: #1F2937;
+    padding: 10px 30px;
 }
 
 .logo {
     display: flex;
 }
-
 
 a {
     text-decoration: none;
@@ -39,4 +33,44 @@ ul {
 li {
     display: flex;
     gap: 30px;
+}
+
+.showcase {
+    display: flex;
+    background: #1F2937;
+    padding: 90px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.showleft {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.showtitle {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.showp {
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background: #3882F6;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+img {
+    border-radius: 5%;
 }
