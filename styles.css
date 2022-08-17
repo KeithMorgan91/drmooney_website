@@ -77,38 +77,28 @@ button {
     font-weight: 600;
 }
 
+.servicetitle {
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: 800;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
 .offerimg {
     width: 180px;
-    height: auto;
+    height: 180px;
     border-radius: 8px;
 }
 
 .offers {
     display: flex;
     justify-content: center;
-}
-
-.servicetitle {
-    display: flex;
-    font-size: 33px;
-    font-weight: 800;
-    padding: 20px;
-}
-
-.services {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.infotitle {
-    font-size: 18px;
-    font-weight: 700;
+    gap: 52px;
     text-align: center;
 }
 
-.info {
-    max-width: 350px;
-    text-align: center;
+.offer1 {
+    max-width: 200px;
 }
