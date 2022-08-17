@@ -135,3 +135,32 @@ button {
     padding: 20px;
     margin-left: 540px;
 }
+
+.dosomething {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.bluebox {
+    background: #3882F6;
+    padding: 20px 260px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.makemeleft {
+    color: white;
+    max-width: 250px;
+}
+
+.makeme {
+    font-weight: 700;
+}
+
+button.buttonright {
+    border: white;
+    background-color: #3882F6;
+}
