@@ -77,6 +77,10 @@ button {
     font-weight: 600;
 }
 
+button:hover {
+    background: #5e9afa;
+}
+
 .servicetitle {
     display: flex;
     justify-content: center;
@@ -162,5 +166,4 @@ button {
 .buttonright {
     border: white;
     background-color: #3882F6;
-    border: white;
 }
