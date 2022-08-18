@@ -139,28 +139,28 @@ button {
 .dosomething {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 50px;
 }
 
 .bluebox {
     background: #3882F6;
-    padding: 20px 260px;
+    padding: 20px 90px;
     border-radius: 10px;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
+    gap: 200px;
 }
 
 .makemeleft {
     color: white;
-    max-width: 250px;
 }
 
 .makeme {
     font-weight: 700;
 }
 
-button.buttonright {
+.buttonright {
     border: white;
     background-color: #3882F6;
+    border: white;
 }
